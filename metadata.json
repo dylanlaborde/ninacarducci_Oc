@@ -1,53 +1,65 @@
 {
-    "title": "Nina_Carducci",
-    "subtittle":"Réferencement || SEO",
-    "shortDescription": "Optimisation SEO et performance d'un site portfolio de photographe",
-    "longDescription": "Audit et optimisation complète d'un site existant : amélioration du SEO, de l'accessibilité et des performances. Mise en place du référencement local et optimisation des ressources pour atteindre un score Lighthouse parfait.",
+    "title": "Nina Carducci - Portfolio Photographe",
+    "description": "Optimisation des performances d'un site portfolio de photographe",
     "technologies": [
-        "SEO",
-        "Référencement local",
-        "Données structurées",
-        "Optimisation des performances"
+        "Lighthouse",
+        "Chrome DevTools",
+        "Wave",
+        "Schema.org",
+        "Google Rich Snippets"
     ],
-    "optimisations": [
-        "Optimisation des images (format WebP, redimensionnement, compression)",
-        "Lazy loading des images",
-        "Minification des fichiers",
-        "Mise en cache des ressources",
-        "Données structurées Schema.org",
-        "Balises meta (title, description, robots)",
-        "Meta Open Graph et Twitter Cards"
+    "competences": [
+        "Optimiser la performance d'un site web"
     ],
-    "features": [
-        "Score Lighthouse 100/100 (Performance, SEO, Accessibilité, Bonnes pratiques)",
-        "Référencement local optimisé",
-        "Rich Snippets Google",
-        "Temps de chargement optimisé",
-        "Navigation accessible"
-    ],
-    "screenshots": {
-        "desktop": [
-            "screenshots/desktop/p1.png",
-            "screenshots/desktop/p2.png",
-            "screenshots/desktop/p3.png",
-            "screenshots/desktop/p4.png"
+    "optimisations": {
+        "performance": {
+            "images": [
+                "Compression des images",
+                "Redimensionnement adaptatif",
+                "Utilisation du format WebP",
+                "Lazy loading"
+            ],
+            "code": [
+                "Minification du code CSS/JS",
+                "Suppression du code inutilisé",
+                "Optimisation du chargement des scripts",
+                "Réduction des ressources bloquantes"
+            ],
+            "cache": [
+                "Mise en place du cache navigateur",
+                "Optimisation de la politique de cache"
+            ]
+        },
+        "seo": [
+            "Implémentation des balises meta",
+            "Structuration des données Schema.org",
+            "Optimisation des balises alt",
+            "Rich Snippets"
         ],
-        "mobile": [
-            "screenshots/desktop/p1.png",
-            "screenshots/desktop/p2.png",
-            "screenshots/desktop/p3.png",
-            "screenshots/desktop/p4.png"
-        ],
-        "lighthouse": [
-            "screenshots/lighthouse/lighthouse-score.png"
+        "accessibilite": [
+            "Amélioration du contraste",
+            "Ajout d'attributs ARIA",
+            "Structure sémantique HTML"
         ]
     },
     "metrics": {
         "lighthouse": {
-            "performance": 100,
-            "accessibility": 100,
-            "seo": 100,
-            "bestPractices": 100
+            "performance": {
+                "before": "65/100",
+                "after": "100/100"
+            },
+            "accessibility": {
+                "before": "70/100",
+                "after": "100/100"
+            },
+            "seo": {
+                "before": "85/100",
+                "after": "100/100"
+            },
+            "best_practices": {
+                "before": "75/100",
+                "after": "100/100"
+            }
         }
     }
 }
